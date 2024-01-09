@@ -51,7 +51,7 @@ const Lastsec = () => {
                             <li className="mt-[10px]">
                                 <a
                                     href="#"
-                                    className="text-neutral-400 text-base font-normal  font-['Montserrat'] leading-normal hover:border-b hover: border-blue-500 hover:text-blue-500 pb-[0.2px]"
+                                    className="text-neutral-400 text-base font-normal  font-['Montserrat'] leading-normal transition after:duration-500 after:w-0 hover:after:w-full after:absolute relative after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:rounded-full after:bg-indigo-600 hover:text-indigo-600 pb-[4.2px]"
                                 >
                                     Integrations
                                 </a>
@@ -59,7 +59,7 @@ const Lastsec = () => {
                             <li className="mt-[15px]">
                                 <a
                                     href="#"
-                                    className="text-neutral-400 text-base font-normal font-['Montserrat'] leading-normal hover:border-b hover: border-blue-500 hover:text-blue-500 pb-[0.2px]"
+                                    className="text-neutral-400 text-base font-normal font-['Montserrat'] leading-normal transition after:duration-500 after:w-0 hover:after:w-full after:absolute relative after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:rounded-full after:bg-indigo-600 hover:text-indigo-600 pb-[4.2px]"
                                 >
                                     Hello
                                 </a>
@@ -67,7 +67,7 @@ const Lastsec = () => {
                             <li className=" mt-[15px]">
                                 <a
                                     href="#"
-                                    className="text-neutral-400 text-base font-normal font-['Montserrat'] leading-normal hover:border-b hover: border-blue-500 hover:text-blue-500 pb-[0.2px]"
+                                    className="text-neutral-400 text-base font-normal font-['Montserrat'] leading-normal transition after:duration-500 after:w-0 hover:after:w-full after:absolute relative after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:rounded-full after:bg-indigo-600 hover:text-indigo-600 pb-[4.2px]"
                                 >
                                     Intercom
                                 </a>
@@ -75,7 +75,7 @@ const Lastsec = () => {
                             <li className="mt-[15px]">
                                 <a
                                     href="#"
-                                    className="text-neutral-400 text-base font-normal font-['Montserrat'] leading-normal  hover:border-b hover: border-blue-500 hover:text-blue-500 pb-[0.2px]"
+                                    className="text-neutral-400 text-base font-normal font-['Montserrat'] leading-normal  transition after:duration-500 after:w-0 hover:after:w-full after:absolute relative after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:rounded-full after:bg-indigo-600 hover:text-indigo-600 pb-[4.2px]"
                                 >
                                     Customer
                                 </a>
@@ -88,7 +88,7 @@ const Lastsec = () => {
                             <li className="mt-[10px]">
                                 <a
                                     href="#"
-                                    className="text-neutral-400 text-base font-normal font-['Montserrat'] leading-normal hover:border-b hover: border-blue-500 hover:text-blue-500 pb-[0.2px]"
+                                    className="text-neutral-400 text-base font-normal font-['Montserrat'] leading-normal transition after:duration-500 after:w-0 hover:after:w-full after:absolute relative after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:rounded-full after:bg-indigo-600 hover:text-indigo-600 pb-[4.2px]"
                                 >
                                     Our Blog
                                 </a>
@@ -96,7 +96,7 @@ const Lastsec = () => {
                             <li className="mt-[15px]">
                                 <a
                                     href="#"
-                                    className="text-neutral-400 text-base font-normal font-['Montserrat'] leading-normal hover:border-b hover: border-blue-500 hover:text-blue-500 pb-[0.2px]"
+                                    className="text-neutral-400 text-base font-normal font-['Montserrat'] leading-normal transition after:duration-500 after:w-0 hover:after:w-full after:absolute relative after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:rounded-full after:bg-indigo-600 hover:text-indigo-600 pb-[4.2px]"
                                 >
                                     Customers
                                 </a>
@@ -104,7 +104,7 @@ const Lastsec = () => {
                             <li className=" mt-[15px]">
                                 <a
                                     href="#"
-                                    className="text-neutral-400 text-base font-normal font-['Montserrat'] leading-normal hover:border-b hover: border-blue-500 hover:text-blue-500 pb-[0.2px]"
+                                    className="text-neutral-400 text-base font-normal font-['Montserrat'] leading-normal transition after:duration-500 after:w-0 hover:after:w-full after:absolute relative after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:rounded-full after:bg-indigo-600 hover:text-indigo-600 pb-[4.2px]"
                                 >
                                     Our Team
                                 </a>
@@ -112,7 +112,7 @@ const Lastsec = () => {
                             <li className="mt-[15px]">
                                 <a
                                     href="#"
-                                    className="text-neutral-400 text-base font-normal font-['Montserrat'] leading-normal hover:border-b hover: border-blue-500 hover:text-blue-500 pb-[0.2px]"
+                                    className="text-neutral-400 text-base font-normal font-['Montserrat'] leading-normal transition after:duration-500 after:w-0 hover:after:w-full after:absolute relative after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:rounded-full after:bg-indigo-600 hover:text-indigo-600 pb-[4.2px]"
                                 >
                                     Careers
                                 </a>
@@ -120,7 +120,7 @@ const Lastsec = () => {
                             <li className="mt-[15px]">
                                 <a
                                     href="#"
-                                    className="text-neutral-400 text-base font-normal font-['Montserrat'] leading-normal hover:border-b hover: border-blue-500 hover:text-blue-500 pb-[0.2px]"
+                                    className="text-neutral-400 text-base font-normal font-['Montserrat'] leading-normal transition after:duration-500 after:w-0 hover:after:w-full after:absolute relative after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:rounded-full after:bg-indigo-600 hover:text-indigo-600 pb-[4.2px]"
                                 >
                                     Integrations
                                 </a>
@@ -133,7 +133,7 @@ const Lastsec = () => {
                             <li className="mt-[10px]">
                                 <a
                                     href="#"
-                                    className="text-neutral-400 text-base font-normal font-['Montserrat'] leading-normal hover:border-b hover: border-blue-500 hover:text-blue-500 pb-[0.2px]"
+                                    className="text-neutral-400 text-base font-normal font-['Montserrat'] leading-normal transition after:duration-500 after:w-0 hover:after:w-full after:absolute relative after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:rounded-full after:bg-indigo-600 hover:text-indigo-600 pb-[4.2px]"
                                 >
                                     Test Zoom
                                 </a>
@@ -141,7 +141,7 @@ const Lastsec = () => {
                             <li className="mt-[15px]">
                                 <a
                                     href="#"
-                                    className="text-neutral-400 text-base font-normal font-['Montserrat'] leading-normal hover:border-b hover: border-blue-500 hover:text-blue-500 pb-[0.2px]"
+                                    className="text-neutral-400 text-base font-normal font-['Montserrat'] leading-normal transition after:duration-500 after:w-0 hover:after:w-full after:absolute relative after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:rounded-full after:bg-indigo-600 hover:text-indigo-600 pb-[4.2px]"
                                 >
                                     Account
                                 </a>
@@ -149,7 +149,7 @@ const Lastsec = () => {
                             <li className=" mt-[15px]">
                                 <a
                                     href="#"
-                                    className="text-neutral-400 text-base font-normal font-['Montserrat'] leading-normal hover:border-b hover: border-blue-500 hover:text-blue-500 pb-[0.2px]"
+                                    className="text-neutral-400 text-base font-normal font-['Montserrat'] leading-normal transition after:duration-500 after:w-0 hover:after:w-full after:absolute relative after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:rounded-full after:bg-indigo-600 hover:text-indigo-600 pb-[4.2px]"
                                 >
                                     Support Center
                                 </a>
@@ -157,7 +157,7 @@ const Lastsec = () => {
                             <li className="mt-[15px]">
                                 <a
                                     href="#"
-                                    className="text-neutral-400 text-base font-normal font-['Montserrat'] leading-normal hover:border-b hover: border-blue-500 hover:text-blue-500 pb-[0.2px]"
+                                    className="text-neutral-400 text-base font-normal font-['Montserrat'] leading-normal transition after:duration-500 after:w-0 hover:after:w-full after:absolute relative after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:rounded-full after:bg-indigo-600 hover:text-indigo-600 pb-[4.2px]"
                                 >
                                     Live Training
                                 </a>
@@ -165,7 +165,7 @@ const Lastsec = () => {
                             <li className="mt-[15px]">
                                 <a
                                     href="#"
-                                    className="text-neutral-400 text-base font-normal font-['Montserrat'] leading-normal hover:border-b hover: border-blue-500 hover:text-blue-500 pb-[0.2px]"
+                                    className="text-neutral-400 text-base font-normal font-['Montserrat'] leading-normal transition after:duration-500 after:w-0 hover:after:w-full after:absolute relative after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:rounded-full after:bg-indigo-600 hover:text-indigo-600 pb-[4.2px]"
                                 >
                                     Accessibility
                                 </a>
