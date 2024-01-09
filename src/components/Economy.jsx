@@ -89,7 +89,7 @@ export const Economy = () => {
                             </div>
                             <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
                         </>
-                    ) : null}6
+                    ) : null}
                 </div>
             </div >}
             {first === "tab2" && <div className='w-full min-h-[216px] bg-white sm:rounded-tr-[20px] rounded-bl-[20px] rounded-br-[20px] shadow-[0px_100px_200px_0px_rgba(1,23,54,0.10);] flex-col justify-center items-center gap-2.5 inline-flex p-10'>
