@@ -23,7 +23,7 @@ const Nav = () => {
                 </div>
                 <ul
                     className={` ${first ? "left-0" : "left-[-100%]"
-                        } flex items-center lg:gap-[50px] gap-[20px] duration-300 mobileview2  max-lg:justify-center max-lg:flex-col max-lg:text-white max-lg:w-full max-lg:h-full  max-lg:fixed max-lg:top-0 max-lg:z-20 max-lg:bg-gray-700`}
+                        } flex items-center lg:gap-[50px] gap-[20px] duration-300 mobileview2  max-lg:justify-center max-lg:flex-col max-lg:text-white max-lg:w-full max-lg:h-full  max-lg:fixed max-lg:top-0 max-lg:z-20 max-lg:bg-slate-900`}
                 >
                     <li>
                         <a
@@ -65,7 +65,7 @@ const Nav = () => {
                         <a
                             onClick={CloseView}
                             href="#"
-                            className="text-white border font-[Montserrat]   font-base border-[#fff] py-[10px] px-10 rounded-[59px] "
+                            className="text-white border font-[Montserrat] duration-300  hover:text-slate-900 hover:bg-white hover:shadow-[0px_-3px_-1px_1px_#000] font-base border-[#fff] py-[10px] px-10 rounded-[59px] "
                         >
                             Let’s Fly
                         </a>

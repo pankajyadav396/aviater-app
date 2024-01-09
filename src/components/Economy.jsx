@@ -14,7 +14,7 @@ export const Economy = () => {
     return (
         <div className='max-w-[1200px] mx-auto relative mt-[-79px] px-3'>
             <div className='absolute flex sm:top-[-59px] top-[-49px] ml-3 left-[0] z-10'>
-                <button onClick={() => tabs('tab1')} className={`${first === "tab1" ? "bg-indigo-600 text-white" : "bg-white text-slate-900  "}transition w-[87px] sm:w-[173.33px]  h-[50px] sm:h-[60px] px-5 py-4  border-b rounded-tl-[30px]  justify-center items-center gap-2.5 inline-flex text-center sm:text-lg text-[15px] font-medium font-[Montserrat] leading-7`}>Economy</button>
+                <button onClick={() => tabs('tab1')} className={`${first === "tab1" ? "bg-indigo-600 text-white" : "bg-white text-slate-900"} transition w-[87px] sm:w-[173.33px]  h-[50px] sm:h-[60px] px-5 py-4  border-b rounded-tl-[30px]  justify-center items-center gap-2.5 inline-flex text-center sm:text-lg text-[15px] font-medium font-[Montserrat] leading-7`}>Economy</button>
                 <button onClick={() => tabs('tab2')} className={`${first === "tab2" ? "bg-indigo-600 text-white" : "bg-white text-slate-900 "} transition w-[105px] sm:w-[173.33px]  h-[50px] sm:h-[60px] px-5 py-4  border-b justify-center items-center border-r gap-2.5 inline-flex text-center sm:text-lg text-[15px] font-semibold font-['Montserrat'] leading-7`}>Business</ button>
                 <button onClick={() => tabs('tab3')} className={`${first === "tab3" ? "bg-indigo-600 text-white" : "bg-white text-slate-900"} transition w-[87px] sm:w-[173.33px]  h-[50px] sm:h-[60px] px-5 py-4  border-b rounded-tr-[30px]  justify-center items-center gap-2.5 inline-flex text-center sm:text-lg text-[15px] font-medium font-[Montserrat] leading-7`}>First</button>
             </div >
@@ -52,7 +52,7 @@ export const Economy = () => {
                 <div className="text-center">
                     <button onClick={() => setShowModal(true)}
                         className="mx-auto shadow-[0px_10px_14px_0px_rgba(49,62,247,0.25);]  px-[45px] py-3.5 bg-indigo-600 rounded-[56px] justify-start items-start gap-2.5 inline-flex
-                    grow shrink basis-0 text-center text-white text-base font-semibold font-[Montserrat] leading-7">Book Now</button>
+                    grow shrink basis-0 text-center text-white text-base button-book font-semibold font-[Montserrat] leading-7">Book Now</button>
                     {showModal ? (
                         <>
                             <div
@@ -126,7 +126,7 @@ export const Economy = () => {
                 <div className="text-center">
                     <button onClick={() => setShowModal(true)}
                         className="mx-auto shadow-[0px_10px_14px_0px_rgba(49,62,247,0.25);]  px-[45px] py-3.5 bg-indigo-600 rounded-[56px] justify-start items-start gap-2.5 inline-flex
-                    grow shrink basis-0 text-center text-white text-base font-semibold font-[Montserrat] leading-7">Book Now</button>
+                    grow shrink basis-0 text-center text-white text-base font-semibold button-book font-[Montserrat] leading-7">Book Now</button>
                     {showModal ? (
                         <>
                             <div
@@ -200,7 +200,7 @@ export const Economy = () => {
                 <div className="text-center">
                     <button onClick={() => setShowModal(true)}
                         className="mx-auto shadow-[0px_10px_14px_0px_rgba(49,62,247,0.25);]  px-[45px] py-3.5 bg-indigo-600 rounded-[56px] justify-start items-start gap-2.5 inline-flex
-                    grow shrink basis-0 text-center text-white text-base font-semibold font-[Montserrat] leading-7">Book Now</button>
+                    grow shrink basis-0 text-center text-white text-base font-semibold button-book font-[Montserrat] leading-7">Book Now</button>
                     {showModal ? (
                         <>
                             <div

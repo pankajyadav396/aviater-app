@@ -2,11 +2,13 @@
 import Waterimg from "../assets/images/waterimg.webp";
 import lineimg from "../assets/images/line-img.webp";
 import dots from "../assets/images/dots-line.webp";
-
+import { useState } from "react";
 const Tourroad = () => {
+    const [showModal, setShowModal] = useState(false);
+
     return (
         <>
-            <div className="max-w-[1200px] mx-auto px-3 py-3 flex flex-wrap relative z-[1]">
+            <div className="max-w-[1200px] mx-auto px-3 pb-[100px] flex flex-wrap relative z-[1]">
                 <div className="lg:w-1/2 w-full  ">
                     <img src={Waterimg} alt="water" className=" " />
                 </div>
@@ -57,9 +59,43 @@ const Tourroad = () => {
                             </div>
                         </div>
                     </div>
-                    <button className=" px-[45px] py-3.5 mt-[40px] bg-indigo-600 rounded-[56px] shadow border justify-start items-start gap-2.5 inline-flex  basis-0 text-center text-white text-base  duration-700 font-semibold font-['Montserrat'] leading-7 hover:bg-blue-100 hover:text-indigo-600">
+                    <button onClick={() => setShowModal(true)} className=" px-[45px] py-3.5 mt-[40px] button-book bg-indigo-600 rounded-[56px] shadow border justify-start items-start gap-2.5 inline-flex  basis-0 text-center text-white text-base  duration-700 font-semibold font-['Montserrat'] leading-7 hover:bg-blue-100 hover:text-indigo-600">
                         Book Now
                     </button>
+                    {showModal ? (
+                        <>
+                            <div
+                                className="modal justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
+                            >
+                                <div className="relative w-auto my-6 mx-auto text-center max-w-3xl">
+                                    <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+                                        <div className="flex items-start mx-auto font-['Montserrat'] max-w-[500px] p-5 border-b border-solid border-blueGray-200 rounded-t">
+                                            <button
+                                                className="p-1 ml-auto bg-transparent border-0 font-['Montserrat'] text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
+                                                onClick={() => setShowModal(false)}
+                                            >
+                                            </button>
+                                        </div>
+                                        <div className="relative p-6 flex-auto">
+                                            <p className="my-4 text-blueGray-500 max-w-[400px] sm:text-[40px] text-[30px] font-bold font-['Montserrat'] leading-relaxed">
+                                                Confirm Your Water Park Ticket!
+                                            </p>
+                                        </div>
+                                        <div className="flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
+                                            <button
+                                                className="bg-indigo-500 text-white active:scale-90 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                                                type="button"
+                                                onClick={() => setShowModal(false)}
+                                            >
+                                                Confirm
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
+                        </>
+                    ) : null}
                 </div>
             </div>
         </>

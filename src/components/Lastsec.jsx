@@ -9,11 +9,11 @@ import img_c from "../assets/images/img-c.webp";
 const Lastsec = () => {
     return (
         <>
-            <div className=" bg-footer py-4 bg-no-repeat  bg-cover bg-center">
+            <div className=" bg-footer pb-4 pt-[70px] bg-no-repeat  bg-cover bg-center">
                 <div className="max-w-[1200px] mx-auto px-3">
-                    <div className=" flex flex-wrap justify-between gap-[30px] py-[30px]  border-b-2 border-[#1A223F]">
+                    <div className=" flex flex-wrap justify-between gap-[30px] pb-[40px] pt-[30px]  border-b-2 border-[#1A223F]">
                         <div>
-                            <img src={footer_logo} alt="image-tweeter" className="w-[164px]"/>
+                            <img src={footer_logo} alt="image-tweeter" className="w-[164px]" />
                             <p className=" font-[Montserrat] fs-[16px]  font-normal text-[#A7A7A7] max-w-[300px] pt-[25px]">
                                 There are many variations of passages of Lorem Ipsum available,
                                 but the majority have suffered alteration in some form
@@ -172,7 +172,7 @@ const Lastsec = () => {
                             </li>
                         </ul>
                     </div>
-                    <p className=" text-white sm:text-sm  text-[12px] font-normal font-['Montserrat'] flex items-center gap-1  justify-center pt-2">
+                    <p className=" text-white sm:text-sm pb-[15px] pt-[25px] text-[12px] font-normal font-['Montserrat'] flex items-center gap-1  justify-center">
                         CopyrightFT <img src={img_c} alt="" />{" "}
                         <span className="text-white sm:text-sm text-[12px] font-normal font-['Montserrat']">
                             PLANE 2022 All right reserved

@@ -10,17 +10,21 @@ import Travelersec from './components/Travelersec';
 import Formsec from './components/Formsec';
 import Lastsec from './components/Lastsec';
 import Swipcardsec from './components/Swipcardsec';
+import Preloadersec from './components/Preloadersec';
+import Backtotop from './components/Backtotop';
 
 function App() {
   return (
     <>
+      <Preloadersec />
+      <Backtotop />
       <Header />
       <Economy />
       <Features />
       <Tourroad />
+      <Swipcardsec />
       <Travelersec />
       <Customer />
-      <Swipcardsec/>
       <Memoriesec />
       <Formsec />
       <Lastsec />
