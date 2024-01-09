@@ -38,7 +38,7 @@ const Features = () => {
     const cardcomponent = myarray.map((myarray) => (
 
         <div
-            className={` ${myarray.margin} flex flex-col justify-center items-center border max-w-[281.633px] rounded-[185px] bg-[#fff] shadow-[0_100px_200px_0_rgba(1,23,54,0.05)] px-5 py-10`}
+            className={` ${myarray.margin} flex flex-col justify-center items-center max-w-[281.633px] rounded-[185px] bg-[#fff] shadow-[0_10px_200px_0_rgba(1,23,54,0.08)] px-5 py-10`}
         >
             <div className=" flex justify-center items-center mx-auto w-[70px] h-[70px] rounded-[50px] bg-[#F5F5FF] ">
                 {myarray.Img}
@@ -58,11 +58,11 @@ const Features = () => {
     ));
 
     return (
-        <div className="max-w-[1200px] mx-auto px-3 py-[100px]">
+        <div className="max-w-[1200px] mx-auto px-3 py-[100px]" data-aos-duration="2000" data-aos="fade-up">
             <h2 className=" md:text-[40px] text-[30px] font-bold leading-[150%] font-[Montserrat] text-[#030522] text-center">
                 Our Features
             </h2>
-            <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 items-center justify-center gap-8 pt-[30px] ">
+            <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 items-center justify-center gap-8 pt-[30px] " >
                 {cardcomponent}
             </div>
         </div>

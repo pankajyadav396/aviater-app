@@ -41,15 +41,15 @@ const Customer = () => {
         centerPadding: "0px"
     };
     return (
-        <div>
+        <div className='overflow-hidden'>
             <div className='max-w-[1200px] px-3 mx-auto pb-[100px]'>
-                <p className='max-w-[524px] mx-auto text-center text-indigo-600 mb-2 text-xl font-semibold font-["Montserrat"] leading-normal'>What’s our customer saying</p>
-                <p className="max-w-[534px] mx-auto mb-[60px] text-center text-slate-900 sm:text-[40px] text-[25px] font-bold font-['Montserrat'] capitalize leading-[30px] sm:leading-[60px] tracking-wide">Our Customer Feedback</p>
+                <p data-aos-duration="2000" data-aos="fade-down" className='max-w-[524px] mx-auto text-center text-indigo-600 mb-2 text-xl font-semibold font-["Montserrat"] leading-normal'>What’s our customer saying</p>
+                <p data-aos-duration="2000" data-aos="fade-down" className="max-w-[534px] mx-auto mb-[60px] text-center text-slate-900 sm:text-[40px] text-[25px] font-bold font-['Montserrat'] capitalize leading-[30px] sm:leading-[60px] tracking-wide">Our Customer Feedback</p>
                 <div className=' grid grid-cols-1 lg:grid-cols-9 w-full mx-[-12px] '>
-                    <div className='lg:col-span-5  px-3'>
+                    <div className='lg:col-span-5  px-3' data-aos-duration="2000" data-aos="fade-up">
                         <img className='w-full' src={Map} alt="world-map" />
                     </div>
-                    <div className='lg:col-span-4 mt-9 lg:mt-0'>
+                    <div className='lg:col-span-4 mt-9 lg:mt-0' data-aos-duration="2000" data-aos="fade-up">
                         <Slider {...settings}>
                             <div className=' max-w-[500px] ml-3 sm:ml-0 flex w-full flex-col rounded-3xl shadow-lg'>
                                 <div className='py-[30px] px-5'>

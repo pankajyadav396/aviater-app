@@ -26,9 +26,9 @@ const Memoriesec = () => {
 
     return (
         <>
-            <div className=" bg-[#FFFFF]">
+            <div className=" bg-[#FFFFF]" data-aos-duration="2000" data-aos="fade-up">
                 <div className="max-w-[1200px] mx-auto px-3 py-[90px]">
-                    <h2 className=" text-center text-slate-900 md:text-[40px] text-[30px]  font-bold font-['Montserrat'] capitalize md:leading-[60px] leading-[40px] tracking-wide pb-[40px]">
+                    <h2 data-aos-duration="2000" data-aos="fade-down" className=" text-center text-slate-900 md:text-[40px] text-[30px]  font-bold font-['Montserrat'] capitalize md:leading-[60px] leading-[40px] tracking-wide pb-[40px]">
                         Make memories with us
                     </h2>
                     <div className="grid md:grid-cols-4 grid-cols-2  w-full gap-[10px]  md:gap-[20px]">{mycard}</div>

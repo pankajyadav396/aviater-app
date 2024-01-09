@@ -8,11 +8,11 @@ const Tourroad = () => {
 
     return (
         <>
-            <div className="max-w-[1200px] mx-auto px-3 pb-[100px] flex flex-wrap relative z-[1]">
-                <div className="lg:w-1/2 w-full  ">
+            <div className="max-w-[1200px] mx-auto px-3 pb-[100px] flex flex-wrap relative z-[1] overflow-hidden">
+                <div className="lg:w-1/2 w-full  " data-aos-duration="2000" data-aos="fade-right">
                     <img src={Waterimg} alt="water" className=" " />
                 </div>
-                <div className="lg:w-1/2 w-full mt-[40px] lg:mt-0 ">
+                <div className="lg:w-1/2 w-full mt-[40px] lg:mt-0" data-aos-duration="2000" data-aos="fade-left">
                     <p className=" font-[Montserrat] text-[20px] text-[#313EF7] font-black  leading-6">
                         Let’s Fly
                     </p>

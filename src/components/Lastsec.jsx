@@ -12,7 +12,7 @@ const Lastsec = () => {
             <div className=" bg-footer pb-4 pt-[70px] bg-no-repeat  bg-cover bg-center">
                 <div className="max-w-[1200px] mx-auto px-3">
                     <div className=" flex flex-wrap justify-between gap-[30px] pb-[40px] pt-[30px]  border-b-2 border-[#1A223F]">
-                        <div>
+                        <div data-aos-duration="2000" data-aos="fade-up">
                             <img src={footer_logo} alt="image-tweeter" className="w-[164px]" />
                             <p className=" font-[Montserrat] fs-[16px]  font-normal text-[#A7A7A7] max-w-[300px] pt-[25px]">
                                 There are many variations of passages of Lorem Ipsum available,
@@ -44,7 +44,7 @@ const Lastsec = () => {
                             </div>
                         </div>
 
-                        <ul>
+                        <ul data-aos-duration="2000" data-aos="fade-down">
                             <li className=" font-['Montserrat'] text-[24px]  font-bold text-[#FFF]  leading-9">
                                 Address
                             </li>
@@ -81,7 +81,7 @@ const Lastsec = () => {
                                 </a>
                             </li>
                         </ul>
-                        <ul>
+                        <ul data-aos-duration="2000" data-aos="fade-down">
                             <li className=" font-['Montserrat'] text-[24px]  font-bold text-[#FFF]  leading-9">
                                 About
                             </li>
@@ -126,7 +126,7 @@ const Lastsec = () => {
                                 </a>
                             </li>
                         </ul>
-                        <ul>
+                        <ul data-aos-duration="2000" data-aos="fade-down">
                             <li className=" font-['Montserrat'] text-[24px]  font-bold text-[#FFF]  leading-9">
                                 Support
                             </li>

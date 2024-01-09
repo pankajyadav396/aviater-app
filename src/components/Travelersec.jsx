@@ -55,12 +55,14 @@ const Travelersec = () => {
         </div>
     ));
     return (
-        <div className=" max-w-[1200px] mx-auto px-3 py-[90px]">
-            <h2 className="md:text-[40px] text-[30px] font-bold leading-[150%] text-center text-[#011736] font-[Montserrat]">
+        <div>
+            <div className=" max-w-[1200px] mx-auto px-3 py-[90px]">
+            <h2 data-aos-duration="2000" data-aos="fade-left" className="md:text-[40px] text-[30px] font-bold leading-[150%] text-center text-[#011736] font-[Montserrat]">
                 Best travelars of this month
             </h2>
-            <div className=" grid lg:grid-cols-4 sm:grid-cols-2  justify-center gap-9 items-center pt-[40px]">
+                <div className=" grid lg:grid-cols-4 sm:grid-cols-2  justify-center gap-9 items-center pt-[40px]" data-aos-duration="2000" data-aos="fade-down">
                 {cardarray}
+            </div>
             </div>
         </div>
     );
