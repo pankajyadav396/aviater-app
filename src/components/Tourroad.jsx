@@ -2,6 +2,7 @@
 import Waterimg from "../assets/images/waterimg.webp";
 import lineimg from "../assets/images/line-img.webp";
 import dots from "../assets/images/dots-line.webp";
+import flyline from "../assets/images/fly-line.png";
 import { useState } from "react";
 const Tourroad = () => {
     const [showModal, setShowModal] = useState(false);
@@ -13,9 +14,12 @@ const Tourroad = () => {
                     <img src={Waterimg} alt="water" className=" " />
                 </div>
                 <div className="lg:w-1/2 w-full mt-[40px] lg:mt-0" data-aos-duration="2000" data-aos="fade-left">
-                    <p className=" font-[Montserrat] text-[20px] text-[#313EF7] font-black  leading-6">
-                        Let’s Fly
-                    </p>
+                    <div className="flex gap-5 items-center">
+                        <p className=" font-[Montserrat] text-[20px] text-nowrap text-[#313EF7] font-black  leading-6">
+                            Let’s Fly
+                        </p>
+                        <img src={flyline} alt="line" />
+                    </div>
                     <h3 className="font-[Montserrat] pt-5 text-[26px] md:text-[32px] text-[#030303] font-bold  leading-10   self-stretch">
                         {" "}
                         It’s one of the leading online flight booking platforms in the world
