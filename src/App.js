@@ -1,24 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import Economy from './components/Economy';
+import Customer from './components/Customer';
+import Earthslide from './components/Earthslide';
+import Features from './components/Features';
+import Memoriesec from './components/Memoriesec';
+import Tourroad from './components/Tourroad';
+import Travelersec from './components/Travelersec';
+import Formsec from './components/Formsec';
+import Lastsec from './components/Lastsec';
+import Swipcardsec from './components/Swipcardsec';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Economy />
+      <Features />
+      <Tourroad />
+      <Travelersec />
+      <Customer />
+      <Swipcardsec/>
+      <Memoriesec />
+      <Formsec />
+      <Lastsec />
+    </>
   );
 }
 
