@@ -1,7 +1,5 @@
 import React from 'react'
 import Backtotop from '../components/Backtotop'
-import Header from '../components/Header'
-import Economy from '../components/Economy'
 import Features from '../components/Features'
 import Tourroad from '../components/Tourroad'
 import Swipcardsec from '../components/Swipcardsec'
