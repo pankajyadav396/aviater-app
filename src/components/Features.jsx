@@ -58,7 +58,7 @@ const Features = () => {
     ));
 
     return (
-        <div className="max-w-[1200px] mx-auto px-3 py-[100px]" data-aos-duration="2000" data-aos="fade-up">
+        <div className="max-w-[1200px] mx-auto px-3 pt-[100px] sm:pb-[100px] pb-12" data-aos-duration="2000" data-aos="fade-up">
             <h2 className=" md:text-[40px] text-[30px] font-bold leading-[150%] font-[Montserrat] text-[#030522] text-center">
                 Our Features
             </h2>

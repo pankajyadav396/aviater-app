@@ -31,7 +31,6 @@ const Swipcardsec = () => {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    fade: false,
                 },
             },
         ],
@@ -40,7 +39,7 @@ const Swipcardsec = () => {
         <div className="bg-[#010223] overflow-hidden">
             <div className=" max-w-[1040px] mx-auto px-3 py-[50px]">
                 <div className=" flex flex-wrap flex-row -mx-3">
-                    <div data-aos="fade-right" className="lg:w-1/2 w-full px-3">
+                    <div data-aos="fade-right" className="md:w-1/2 w-full px-3">
                         <h2 className=" text-white sm:text-[40px] font-['montserrat'] max-sm:mb-3 text-2xl font-bold sm:leading-[60px] leading-[30px] tracking-[0.6px] lg:max-w-[496px]">
                             Book Popular Flight Tickets
                         </h2>
@@ -51,57 +50,57 @@ const Swipcardsec = () => {
                         <img
                             src={worldairplane}
                             alt="worldairplane"
-                            className=" flex justify-center  w-full max-w-[315px] h-[315px]"
+                            className=" flex justify-center  w-full md:w-[60%] md:h-[57%] lg:max-w-[315px] lg:max-h-[315px] max-w-[315px] max-h-[315px]"
                         />
                     </div>
-                    <div data-aos="fade-left" className="lg:w-1/2 w-full px-3 relative ">
+                    <div data-aos="fade-left" className="md:w-1/2 w-full px-3 relative ">
                         <Slider {...settings} ref={first}>
-                            <div className=" d-flex justify-content-center align-items-center w-100">
+                            <div className=" flex justify-content-center align-items-center w-100">
                                 <img
                                     src={flight_img}
                                     alt="card"
-                                    className="xl:w-full lg:w-[60%] max-w-[300px] max-sm:mx-auto object-fill   sm:max-w-[390px] "
+                                    className="xl:w-full w-[70%] max-w-[300px] max-md:mx-auto object-fill sm:max-w-[390px] "
                                 />
                             </div>
 
-                            <div className=" d-flex justify-content-center align-items-center w-100">
+                            <div className=" flex justify-content-center align-items-center w-100">
                                 <img
                                     src={flight2}
                                     alt="card"
-                                    className="xl:w-full lg:w-[60%] max-w-[300px] max-sm:mx-auto object-fill   sm:max-w-[390px]"
+                                    className="xl:w-full w-[70%] max-w-[300px] max-md:mx-auto object-fill sm:max-w-[390px]"
                                 />
                             </div>
 
-                            <div className=" d-flex justify-content-center align-items-center w-100">
+                            <div className="flex justify-content-center align-items-center w-100">
                                 <img
                                     src={flight_img}
                                     alt="card"
-                                    className="xl:w-full lg:w-[60%] max-w-[300px] max-sm:mx-auto object-fill   sm:max-w-[390px]"
+                                    className="xl:w-full w-[70%] max-w-[300px] max-md:mx-auto object-fill sm:max-w-[390px]"
                                 />
                             </div>
-                            <div className=" d-flex justify-content-center align-items-center w-100">
+                            <div className=" flex justify-content-center align-items-center w-100">
                                 <img
                                     src={flight2}
                                     alt="card"
-                                    className="xl:w-full lg:w-[60%] max-w-[300px] max-sm:mx-auto object-fill   sm:max-w-[390px]"
+                                    className="xl:w-full w-[70%] max-w-[300px] max-md:mx-auto object-fill sm:max-w-[390px]"
                                 />
                             </div>
-                            <div className=" d-flex justify-content-center align-items-center w-100">
+                            <div className=" flex justify-content-center align-items-center w-100">
                                 <img
                                     src={flight_img}
                                     alt="card"
-                                    className="xl:w-full lg:w-[60%] max-w-[300px] max-sm:mx-auto object-fill   sm:max-w-[390px]"
+                                    className="xl:w-full w-[70%] max-w-[300px] max-md:mx-auto object-fill sm:max-w-[390px]"
                                 />
                             </div>
-                            <div className=" d-flex justify-content-center align-items-center w-100">
+                            <div className=" flex justify-content-center align-items-center w-100">
                                 <img
                                     src={flight2}
                                     alt="card"
-                                    className="xl:w-full lg:w-[60%] max-w-[300px]  object-fill max-sm:mx-auto  sm:max-w-[390px]"
+                                    className="xl:w-full w-[70%] max-w-[300px] object-fill max-md:mx-auto sm:max-w-[390px]"
                                 />
                             </div>
                         </Slider>
-                        <div className=" flight flex gap-[11px] absolute xl:right-[-12%] right-[3%] bottom-[-11.5%] sm:bottom-[0%] align-items-center flex-row sm:flex-col text-end justify-content-end">
+                        <div className=" flight flex gap-[11px] absolute xl:right-[-12%] lg:right-[3%] md:right-[9%] sm:right-[4%] right-[4%] lg:bottom-[1.5%] sm:bottom-[0%] md:bottom-[15%] align-items-center flex-row sm:flex-col text-end justify-content-end">
                             <div className=" relative">
                                 <img className=" absolute top-[-172px] right-[26px] hidden lg:block" src={swipper_line} alt="swipper_line" /></div>
                             <button

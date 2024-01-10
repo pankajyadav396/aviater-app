@@ -38,11 +38,12 @@ const Customer = () => {
         slidesToScroll: 1,
         centerMode: true,
         variablewidth: true,
-        centerPadding: "0px"
+        centerPadding: "0px",
+        fade:true,
     };
     return (
         <div className='overflow-hidden'>
-            <div className='max-w-[1200px] px-3 mx-auto pb-[100px]'>
+            <div className='max-w-[1200px] px-3 mx-auto pb-[150px]'>
                 <p data-aos-duration="2000" data-aos="fade-down" className='max-w-[524px] mx-auto text-center text-indigo-600 mb-2 text-xl font-semibold font-["Montserrat"] leading-normal'>What’s our customer saying</p>
                 <p data-aos-duration="2000" data-aos="fade-down" className="max-w-[534px] mx-auto mb-[60px] text-center text-slate-900 sm:text-[40px] text-[25px] font-bold font-['Montserrat'] capitalize leading-[30px] sm:leading-[60px] tracking-wide">Our Customer Feedback</p>
                 <div className=' grid grid-cols-1 lg:grid-cols-9 w-full mx-[-12px] '>

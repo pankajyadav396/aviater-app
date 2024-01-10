@@ -9,22 +9,22 @@ const Tourroad = () => {
 
     return (
         <>
-            <div className="max-w-[1200px] mx-auto px-3 pb-[100px] flex flex-wrap relative z-[1] overflow-hidden">
+            <div className="max-w-[1200px] mx-auto px-3 pb-[100px] flex max-lg:gap-7 flex-wrap-reverse relative z-[1] overflow-hidden">
                 <div className="lg:w-1/2 w-full  " data-aos-duration="2000" data-aos="fade-right">
-                    <img src={Waterimg} alt="water" className=" " />
+                    <img src={Waterimg} alt="water" className=" mx-auto" />
                 </div>
-                <div className="lg:w-1/2 w-full mt-[40px] lg:mt-0" data-aos-duration="2000" data-aos="fade-left">
-                    <div className="flex gap-5 items-center">
+                <div className="lg:w-1/2 max-lg:flex max-lg:items-center max-lg:justify-center flex-col w-full mt-[40px] lg:mt-0" data-aos-duration="2000" data-aos="fade-left">
+                    <div className="flex gap-5 items-center justify-center max-sm:justify-start">
                         <p className=" font-[Montserrat] text-[20px] text-nowrap text-[#313EF7] font-black  leading-6">
                             Let’s Fly
                         </p>
-                        <img src={flyline} alt="line" />
+                        <img src={flyline} alt="line" className="w-[80%] max-lg:max-w-[480px] max-sm:w-[100%] "/>
                     </div>
-                    <h3 className="font-[Montserrat] pt-5 text-[26px] md:text-[32px] text-[#030303] font-bold  leading-10   self-stretch">
+                    <h3 className="font-[Montserrat] mx-auto max-w-[588px] pt-5 text-[26px] md:text-[32px] text-[#030303] font-bold  leading-10   self-stretch">
                         {" "}
                         It’s one of the leading online flight booking platforms in the world
                     </h3>
-                    <div className=" flex pt-8  relative">
+                    <div className=" flex pt-8 relative">
                         <div className="">
                             <img
                                 className=" absolute mt-[20px] h-[61%] left-[0.7%] -z-10"
@@ -32,7 +32,7 @@ const Tourroad = () => {
                                 alt="lineimg"
                             />
                         </div>
-                        <div className=" flex  flex-col">
+                        <div className=" flex flex-col">
                             <div className=" flex items-baseline gap-[10px]">
                                 <img src={dots} alt="dots" className="w-[10px] h-[10px]" />
                                 <p className="text-black max-w-[568px] text-base font-medium font-['Montserrat'] leading-7 ">

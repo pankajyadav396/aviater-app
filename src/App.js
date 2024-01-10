@@ -1,19 +1,15 @@
 import './App.css';
 import Header from './components/Header';
 import Economy from './components/Economy';
-import Customer from './components/Customer';
-import Features from './components/Features';
-import Memoriesec from './components/Memoriesec';
-import Tourroad from './components/Tourroad';
-import Travelersec from './components/Travelersec';
-import Formsec from './components/Formsec';
-import Lastsec from './components/Lastsec';
-import Swipcardsec from './components/Swipcardsec';
 import Preloadersec from './components/Preloadersec';
-import Backtotop from './components/Backtotop';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import {Route, Routes } from 'react-router-dom';
+import Home from './Pages/Home';
+import Orders from './Pages/Orders';
+import Passengers from './Pages/Passengers';
+import Shedule from './Pages/Shedule';
 
 function App() {
   useEffect(() => {
@@ -27,17 +23,14 @@ function App() {
   return (
     <>
       < Preloadersec />
-      <Backtotop />
       <Header />
       <Economy />
-      <Features />
-      <Tourroad />
-      <Swipcardsec />
-      <Travelersec />
-      <Customer />
-      <Memoriesec />
-      <Formsec />
-      <Lastsec />
+      <Routes>
+        <Route path='/Home' exact element={<Home />}></Route>
+        <Route path='/Orders' element={<Orders />}></Route>
+        <Route path='/Passengers' element={<Passengers />}></Route>
+        <Route path='/Shedule' element={<Shedule />}></Route>
+      </Routes>
     </>
   );
 }

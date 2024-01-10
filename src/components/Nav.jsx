@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import navlogo from "../assets/images/logo-img.png";
+import { Link, useLocation } from "react-router-dom";
 
 const Nav = () => {
+    const location = useLocation();
     const [first, setfirst] = useState(false);
     function MobileView() {
         setfirst(!first);
@@ -17,55 +19,57 @@ const Nav = () => {
     }
     return (
         <div>
-            <div className="flex justify-between items-center px-3">
+            <div className="flex justify-between items-center  px-3  overflow-hidden">
                 <div className="my-5">
-                    <img className="w-[164px]" src={navlogo} alt="abc" />
+                    <img src={navlogo} alt="logo" className="cursor-pointer w-[165px]" />
                 </div>
                 <ul
                     className={` ${first ? "left-0" : "left-[-100%]"
-                        } flex items-center lg:gap-[50px] gap-[20px] duration-300 mobileview2  max-lg:justify-center max-lg:flex-col max-lg:text-white max-lg:w-full max-lg:h-full  max-lg:fixed max-lg:top-0 max-lg:z-20 max-lg:bg-slate-900`}
+                        } flex items-center lg:gap-[50px] gap-[20px] duration-300 mobileview2  max-lg:justify-center max-lg:flex-col max-lg:text-white max-lg:w-full max-lg:h-full  max-lg:fixed max-lg:top-0 max-lg:z-20 max-lg:bg-gray-700`}
                 >
+                    <Link
+                        to="/Home"
+                        onClick={CloseView}
+                        className={`${location.pathname === "/Home" &&
+                            "!text-indigo-600 after:duration-500 after:w-full after:absolute relative after:left-0 after:right-0 after:bottom-0 py-2.5 after:h-[2px] after:rounded-full after:bg-indigo-600"
+                            } text-white cursor-pointer transition  text-base font-semibold font-["Montserrat"] leading-7`}
+                    >
+                        All Flight
+                    </Link>
+                    <Link
+                        onClick={CloseView}
+                        to="/Shedule"
+                        className={`${location.pathname === "/Shedule" &&
+                            "!text-indigo-600 after:duration-500 after:w-full after:absolute relative after:left-0 after:right-0 after:bottom-0 py-2.5 after:h-[2px] after:rounded-full after:bg-indigo-600"
+                            } text-white cursor-pointer transition  text-base font-semibold font-["Montserrat"] leading-7`}
+                    >
+                        Schedule
+                    </Link>
                     <li>
-                        <a
+                        <Link
+                            to="/Passengers"
                             onClick={CloseView}
-                            href="#"
-                            className='text-white cursor-pointer transition after:duration-500 after:w-0 hover:after:w-full after:absolute relative after:left-0 after:right-0 after:bottom-0 py-2.5 after:h-[2px] after:rounded-full after:bg-indigo-600 hover:text-indigo-600 text-base font-semibold font-["Montserrat"] leading-7'
-                        >
-                            All Flight
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            onClick={CloseView}
-                            href="#"
-                            className='text-white cursor-pointer transition after:duration-500 after:w-0 hover:after:w-full after:absolute relative after:left-0 after:right-0 after:bottom-0 py-2.5 after:h-[2px] after:rounded-full after:bg-indigo-600 hover:text-indigo-600 text-base font-semibold font-["Montserrat"] leading-7'
-                        >
-                            Schedule
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            onClick={CloseView}
-                            href="#"
-                            className='text-white cursor-pointer transition after:duration-500 after:w-0 hover:after:w-full after:absolute relative after:left-0 after:right-0 after:bottom-0 py-2.5 after:h-[2px] after:rounded-full after:bg-indigo-600 hover:text-indigo-600 text-base font-semibold font-["Montserrat"] leading-7'
+                            className={`${location.pathname === "/Passengers" &&
+                                "!text-indigo-600 after:duration-500 after:w-full after:absolute relative after:left-0 after:right-0 after:bottom-0 py-2.5 after:h-[2px] after:rounded-full after:bg-indigo-600"
+                                } text-white cursor-pointer transition  text-base font-semibold font-["Montserrat"] leading-7`}
                         >
                             Passengers
-                        </a>
+                        </Link>
                     </li>
+                    <Link
+                        to="/Orders"
+                        onClick={CloseView}
+                        className={`${location.pathname === "/Orders" &&
+                            "!text-indigo-600 after:duration-500 after:w-full after:absolute relative after:left-0 after:right-0 after:bottom-0 py-2.5 after:h-[2px] after:rounded-full after:bg-indigo-600"
+                            } text-white cursor-pointer transition  text-base font-semibold font-["Montserrat"] leading-7`}
+                    >
+                        Your Orders
+                    </Link>
                     <li>
                         <a
                             onClick={CloseView}
                             href="#"
-                            className='text-white cursor-pointer transition after:duration-500 after:w-0 hover:after:w-full after:absolute relative after:left-0 after:right-0 after:bottom-0 py-2.5 after:h-[2px] after:rounded-full after:bg-indigo-600 hover:text-indigo-600 text-base font-semibold font-["Montserrat"] leading-7'
-                        >
-                            Your Orders
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            onClick={CloseView}
-                            href="#"
-                            className="text-white border font-[Montserrat] duration-300  hover:text-slate-900 hover:bg-white hover:shadow-[0px_-3px_-1px_1px_#000] font-base border-[#fff] py-[10px] px-10 rounded-[59px] "
+                            className="text-white border font-[Montserrat] duration-300  font-base border-[#fff] py-[10px] px-10 rounded-[59px]  hover:bg-blue-600 hover:text-white hover:border-transparent"
                         >
                             Let’s Fly
                         </a>
@@ -87,7 +91,7 @@ const Nav = () => {
                 </label>
             </div>
         </div>
-    )
+    );
 }
 
 export default Nav

@@ -19,7 +19,7 @@ const Preloadersec = () => {
             {loder ? (
                 <section
                     style={{ zIndex: "999999999" }}
-                    className="bg-[#010223] top-0 start-0 fixed h-full w-full flex flex-col justify-center items-center"
+                    className="bg-black top-0 start-0 fixed h-full w-full flex flex-col justify-center items-center"
                 >
                     <div className="flex justify-center items-center flex-col text-center">
                         <div class="loader">

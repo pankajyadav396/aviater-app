@@ -13,10 +13,10 @@ export const Economy = () => {
     }
     return (
         <div className='max-w-[1200px] mx-auto relative mt-[-79px] px-3'>
-            <div className='absolute flex sm:top-[-59px] top-[-49px] ml-3 left-[0] z-10'>
-                <button onClick={() => tabs('tab1')} className={`${first === "tab1" ? "bg-indigo-600 text-white" : "bg-white text-slate-900"} transition w-[87px] sm:w-[173.33px]  h-[50px] sm:h-[60px] px-5 py-4  border-b rounded-tl-[30px]  justify-center items-center gap-2.5 inline-flex text-center sm:text-lg text-[15px] font-medium font-[Montserrat] leading-7`}>Economy</button>
-                <button onClick={() => tabs('tab2')} className={`${first === "tab2" ? "bg-indigo-600 text-white" : "bg-white text-slate-900 "} transition w-[105px] sm:w-[173.33px]  h-[50px] sm:h-[60px] px-5 py-4  border-b justify-center items-center border-r gap-2.5 inline-flex text-center sm:text-lg text-[15px] font-semibold font-['Montserrat'] leading-7`}>Business</ button>
-                <button onClick={() => tabs('tab3')} className={`${first === "tab3" ? "bg-indigo-600 text-white" : "bg-white text-slate-900"} transition w-[87px] sm:w-[173.33px]  h-[50px] sm:h-[60px] px-5 py-4  border-b rounded-tr-[30px]  justify-center items-center gap-2.5 inline-flex text-center sm:text-lg text-[15px] font-medium font-[Montserrat] leading-7`}>First</button>
+            <div className='sm:absolute flex max-sm:overflow-scroll sm:top-[-59px] top-[-49px] sm:ml-3 left-[0] z-10'>
+                <button onClick={() => tabs('tab1')} className={`${first === "tab1" ? "bg-indigo-600 text-white" : "bg-white text-slate-900"} transition  w-[173.33px]  h-[50px] sm:h-[60px] px-5 py-4  border-b rounded-tl-[30px]  justify-center items-center gap-2.5 inline-flex text-center sm:text-lg text-[15px] font-medium font-[Montserrat] leading-7`}>Economy</button>
+                <button onClick={() => tabs('tab2')} className={`${first === "tab2" ? "bg-indigo-600 text-white" : "bg-white text-slate-900 "} transition w-[173.33px]  h-[50px] sm:h-[60px] px-5 py-4  border-b justify-center items-center border-r gap-2.5 inline-flex text-center sm:text-lg text-[15px] font-semibold font-['Montserrat'] leading-7`}>Business</ button>
+                <button onClick={() => tabs('tab3')} className={`${first === "tab3" ? "bg-indigo-600 text-white" : "bg-white text-slate-900"} transition w-[173.33px]  h-[50px] sm:h-[60px] px-5 py-4  border-b rounded-tr-[30px]  justify-center items-center gap-2.5 inline-flex text-center sm:text-lg text-[15px] font-medium font-[Montserrat] leading-7`}>First</button>
             </div >
             {first === "tab1" && <div className='w-full min-h-[216px] bg-white sm:rounded-tr-[20px] rounded-bl-[20px] rounded-br-[20px] shadow-[0px_100px_200px_0px_rgba(1,23,54,0.10);] flex-col justify-center items-center gap-2.5 inline-flex p-10'>
                 <div className='w-full flex justify-between gap-6 flex-wrap mb-6'>
